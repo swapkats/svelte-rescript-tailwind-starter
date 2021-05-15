@@ -6,3 +6,8 @@
 src/**/*.bs.js
 
 lib
+
+coverage
+
+yarn-error.log
+.merlin

@@ -1,17 +1,24 @@
 {
-    "name": "admin-table",
+    "name": "svelte-rescript-tailwind-starter",
     "sources": [
       {
         "dir": "src", 
-        "subdirs": true
+        "subdirs": true,
+        "type":"dev"
       }
     ],
     "package-specs": [
       {
-        "module": "es6",
+        "module": "commonjs",
         "in-source": true
       }
     ],
     "suffix": ".bs.js",
-    "bs-dependencies": []
+    "bs-dependencies": [
+    ],
+    "bs-dev-dependencies": [
+      "@glennsl/bs-jest",
+      "bs-jest-dom",
+      "bs-dom-testing-library"
+    ]
   }
